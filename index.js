@@ -5,6 +5,9 @@ require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const port = process.env.PORT || 5000;
 
+// It's a testing purpose code push.
+// Trying to push on to git after new windows setup.
+
 //middleware
 app.use(cors());
 app.use(express.json());
